@@ -1,0 +1,391 @@
+.main {
+  background-color: Var(--secondary-color);
+
+}
+
+.main-About {
+  padding: 2px 0;
+  flex-direction: column;
+  display: flex;
+  color: var(--White, #FFF);
+  font-family: "Libre Bodoni";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.625rem; /* 115.625% */
+  text-transform: capitalize;
+}
+
+.main-About .restaurant {
+  margin-top: 50px;
+}
+
+.main-welcome {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main-welcome .content {
+  padding: 0;
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  Color: var(--White, #FFF);
+
+}
+
+.main-welcome .contentBoder {
+  padding: 0;
+  display: flex;
+  margin-top: 0;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  Color: var(--White, #FFF);
+  Margin-bottom: 40px;
+
+}
+
+.container {
+  border-bottom: 1px solid grey;
+}
+
+.img01 {
+  width: 100%;
+  height: 42.3125rem;
+  flex-shrink: 0;
+  Display: flex;
+  Margin-bottom: 10px;
+}
+
+.img02 {
+  width: 80%;
+  height: 45.875rem;
+  flex-shrink: 0;
+}
+
+.img-right .img03 {
+  width: 100%;
+  height: 53.875rem;
+  flex-shrink: 0;
+  Display: flex;
+  Flex-direction: column;
+  Align-items: flex-end;
+}
+
+.img-right {
+  Display: flex;
+  Flex-direction: column;
+  Align-items: flex-start;
+  width: 100%;
+  Height: 100%;
+}
+
+.img-left {
+  Display: flex;
+  Flex-direction: column;
+  Align-items: flex-end;
+  Margin-right: 10px;
+  width: 100%;
+}
+
+.img-content {
+  margin-top: 70px;
+  Display: flex;
+  Justify-content: center;
+  Flex-direction: row;
+  width: 100%;
+}
+
+.img-right .img-tittle {
+  font-family: "Libre Bodoni";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.625rem; /* 115.625% */
+  text-transform: capitalize;
+  Color: var(--White, #FFF);
+  margin-top: 50px;
+}
+
+.img-tittle b {
+  Margin-left: 40px;
+  Display: flex;
+  Justify-content: center;
+  Flex-direction: column;
+  Margin-bottom: 4px;
+}
+
+.img-tittle-a {
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  Color: var(--White, #FFF);
+  Display: flex;
+  Justify-content: center;
+  Flex-direction: column;
+  Margin-left: 40px;
+  Margin-top: 20px;
+}
+
+.img-tittle-a a {
+  Margin-bottom: 4px;
+}
+
+.OurVision {
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
+}
+
+.Mission {
+  text-align: center;
+  /* H2 */
+  font-family: "Libre Bodoni";
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.625rem; /* 115.625% */
+  text-transform: capitalize;
+  Color: var(--White, #FFF);
+  Margin-bottom: 20px;
+}
+
+.Lorem {
+  text-align: center;
+  /* 16 */
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  color: var(--White, #FFF);
+  margin-top: 2px;
+}
+
+.img-our {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.main-infomation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+
+}
+
+.img04 {
+  width: 40.625rem;
+  height: 40.875rem;
+  flex-shrink: 0;
+}
+
+.Delicious {
+  display: flex;
+  flex-direction: row;;
+}
+
+.Delicious b {
+  font-family: "Libre Bodoni";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.125rem; /* 141.667% */
+  text-transform: capitalize;
+  color: var(--White, #FFF);
+  margin-left: 20px;
+
+}
+
+.Delicious p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  color: var(--White, #FFF);
+  margin-left: 20px;
+  line-height: 0.5;
+}
+
+.img05 {
+  width: 6.125rem;
+  height: 6.125rem;
+  flex-shrink: 0;
+}
+
+.Fast b {
+  font-family: "Libre Bodoni";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.125rem; /* 141.667% */
+  text-transform: capitalize;
+  color: var(--White, #FFF);
+  margin-left: 20px;
+
+}
+
+.Fast p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  color: var(--White, #FFF);
+  margin-left: 20px;
+  line-height: 0.5;
+
+}
+
+.Chef b {
+  font-family: "Libre Bodoni";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.125rem; /* 141.667% */
+  text-transform: capitalize;
+  color: var(--White, #FFF);
+  margin-left: 20px;
+
+}
+
+.Chef p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  color: var(--White, #FFF);
+  margin-left: 20px;
+  line-height: 0.5;
+}
+
+.Fast {
+  display: flex;
+  flex-direction: row;
+}
+
+.Chef {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.main-infomation {
+  margin-left: 50px;
+}
+
+.img-sub {
+  width: 6.5rem;
+  height: 6.5rem;
+  flex-shrink: 0;
+
+}
+
+.Subscribe {
+  margin-top: 80px;
+}
+
+.Subscribe-img {
+  margin-top: -40px;
+  margin-left: 33px;
+  width: 29.375rem;
+  height: 33.125rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  Display: flex;
+  COLOR: var(--White, #FFF);
+  Width: 100%;
+}
+
+
+.content-sub .sub-tittle p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0;
+
+}
+
+.content-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px;
+}
+
+.content-sub .sub-tittle {
+  Display: flex;
+  Flex-direction: column;
+  width: 100%;
+}
+
+.content-sub .sub-tittle b {
+  font-family: "Libre Bodoni";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.625rem; /* 115.625% */
+  text-transform: capitalize;
+}
+
+.sub-form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: var(--White, #FFF);
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+
+.sub-form p {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin: 0;
+  font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-bottom: 15px;
+
+
+}
+
+.img_about05 {
+  width: 38.375rem;
+  height: 33.1rem;
+  flex-shrink: 0;
+}
+
+.next {
+  width: 3.375rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
