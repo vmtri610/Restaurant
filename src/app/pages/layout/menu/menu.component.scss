@@ -1,0 +1,178 @@
+
+.main-menu {
+  background-color: var(--secondary-color);
+  height: 3100px;
+}
+
+.breakfast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.breakfast b {
+  margin-top: 50px;
+  font-family: "Libre Bodoni", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.625rem; /* 115.625% */
+  text-transform: capitalize;
+  color: var(--text-color);
+}
+
+.img_breakfast {
+  margin-top: 5px;
+  width: 11.82794rem;
+  height: 1.68569rem;
+  flex-shrink: 0;
+  color: var(--primary-color);
+}
+
+.image {
+  margin-top: 20px;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+
+}
+
+.menu01 {
+  color: var(--text-color);
+  width: 275px;
+}
+
+.food p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+.food b {
+  font-family: "Libre Bodoni";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.125rem; /* 141.667% */
+  text-transform: capitalize;
+}
+
+.food p {
+  line-height: 0.6rem;
+  letter-spacing: 0.99px;
+}
+
+.border-bottom {
+  border-bottom: #646464 1px solid;
+  Height: 35px;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.buy {
+  border-bottom: var(--text-color) 1px solid;
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-food {
+  margin-top: 150px;
+  Height: 13%;
+  position: relative;
+  margin-bottom: 50px;
+
+  img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+
+  }
+}
+
+.COLOR {
+  width: 80%;
+  Height: 80%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.3); /* Màu trắng trong suốt với độ mờ là 50% */
+}
+
+.content {
+  color: Var(--text-color);
+  line-height: 0px;
+
+
+  p {
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.375rem;
+  }
+}
+
+.order-button {
+  font-size: 2.5rem;
+  font-style: normal;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: var(--primary-color);
+  Color: var(--text-color);
+}
+
+.eat {
+  position: absolute;
+  font-size: 8rem;
+  text-transform: capitalize;
+  top: 48%;
+  left: 52%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.foodIsNotJust {
+  position: absolute;
+  font-size: 8rem;
+  line-height: 4.625rem; /* 115.625% */
+  text-transform: capitalize;
+  top: 26%;
+  left: 51%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
