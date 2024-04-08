@@ -79,7 +79,12 @@
   Display: flex;
   Flex-direction: column;
   Align-items: flex-end;
+
+  img {
+    object-fit: cover;
+  }
 }
+
 
 .img-right {
   Display: flex;
@@ -95,6 +100,10 @@
   Align-items: flex-end;
   Margin-right: 10px;
   width: 100%;
+
+  img {
+    object-fit: cover;
+  }
 }
 
 .img-content {
@@ -114,6 +123,7 @@
   text-transform: capitalize;
   Color: var(--White, #FFF);
   margin-top: 50px;
+
 }
 
 .img-tittle b {
@@ -192,14 +202,20 @@
 }
 
 .img04 {
-  width: 40.625rem;
+  width: 45.625rem;
+  display: flex;
   height: 40.875rem;
   flex-shrink: 0;
+
+  img {
+    object-fit: cover;
+  }
 }
 
 .Delicious {
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
+
 }
 
 .Delicious b {
@@ -229,6 +245,10 @@
   width: 6.125rem;
   height: 6.125rem;
   flex-shrink: 0;
+
+  img {
+    object-fit: cover;
+  }
 }
 
 .Fast b {
@@ -240,6 +260,7 @@
   text-transform: capitalize;
   color: var(--White, #FFF);
   margin-left: 20px;
+
 
 }
 
@@ -376,16 +397,26 @@
 }
 
 .img_about05 {
-  width: 38.375rem;
-  height: 33.1rem;
+  width: 40.375rem;
+  height: 100%;
+  display: flex;
   flex-shrink: 0;
 }
 
 .next {
-  width: 3.375rem;
-  height: 1.5rem;
+
   flex-shrink: 0;
-  display: flex;
+  //display: flex;
   justify-content: center;
   align-items: center;
+
+  img {
+    object-fit: cover;
+
+  }
+}
+
+.img_about05 img {
+  object-fit: cover;
+
 }
